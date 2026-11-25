@@ -13,3 +13,8 @@
 - Bible : ajout de l'atelier d'Awa, de la vieille fontaine et d'une variante de prompt pour les scènes de nuit.
 - **Toujours à faire** : importer le contenu de l'épisode 01 depuis le PC.
 - **Ensuite** : générer les feuilles de référence des personnages → images des plans des épisodes 01 et 02 → voix.
+
+## 2026-11-25 — Feuilles de référence des personnages
+- Awa et Malik : feuilles de face, de trois-quarts, de profil et de dos générées avec Canva (liens dans les fiches). **À valider**, puis à télécharger en pleine résolution dans `personnages/references/`.
+- Sira : non générée, le quota de crédits Canva est épuisé.
+- ElevenLabs : génération d'images refusée, le compte gratuit est désactivé et il faut un abonnement payant. Rien n'a été facturé.

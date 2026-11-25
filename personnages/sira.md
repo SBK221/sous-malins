@@ -23,4 +23,4 @@ neutral pose, plain light grey background, 3D animated cartoon style, consistent
 
 ## Références validées
 
-- [ ] `personnages/references/sira_turnaround.png` (à générer)
+- [ ] `personnages/references/sira_turnaround.png` : génération Canva bloquée le 2026-11-25 (quota de crédits épuisé). À relancer avec le même prompt.

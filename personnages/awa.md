@@ -23,4 +23,7 @@ neutral pose, plain light grey background, 3D animated cartoon style, consistent
 
 ## Références validées
 
-- [ ] `personnages/references/awa_turnaround.png` (à générer)
+- [x] Feuille générée le 2026-11-25 (Canva, média `MAHb9oxdVZ0`) : https://www.canva.com/M/MAHb9oxdVZ0. **À valider.**
+  - À télécharger en pleine résolution dans `personnages/references/awa_turnaround.png`.
+  - Le générateur a ajouté des détails qui deviennent officiels si la feuille est validée : **lunettes d'aviateur relevées sur le front, ceinture à outils marron, t-shirt gris, pantalon indigo retroussé, bottines marron**.
+  - Si validé, compléter le bloc apparence : `aviator goggles on her forehead, brown tool belt, grey t-shirt, rolled-up indigo jeans, brown ankle boots`.
