@@ -38,6 +38,10 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 
+# 0. Générer les images avec Stable Diffusion en local (voir docs\stable-diffusion.md)
+python outils\generer_images.py --references
+python outils\generer_images.py saisons\saison-01\ep02-la-nuit-des-pulsations
+
 # 1. Vérifier les médias d'un épisode (fichiers manquants, durées, résolutions)
 python outils\verifier_episode.py saisons\saison-01\ep01-le-marche-decolle
 

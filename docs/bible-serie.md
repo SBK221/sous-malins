@@ -31,13 +31,19 @@ high quality render, 16:9
 | Malik | 17 ans | Livreur à vélo | [malik.md](../personnages/malik.md) |
 | Sira | 17 ans | Ironique et débrouillarde | [sira.md](../personnages/sira.md) |
 
+Personnages secondaires (Mama Djénéba, Nafi Sonko, le drone Horizon) : voir [arc-saison-01.md](arc-saison-01.md).
+
 **Règle absolue** : le visage, la coiffure, les vêtements et les accessoires de chaque personnage restent identiques dans toutes les scènes. Le bloc « apparence » de chaque fiche est toujours copié tel quel dans les prompts.
 
 ## Lieux récurrents
 
 - **Le grand marché de Niani** : étals colorés, tissus wax, paniers, foule (épisode 1)
-- **L'atelier d'Awa** : à compléter
-- **Sous la place** : source de la lumière bleue, mystère de la saison
+- **L'atelier d'Awa** : sur le toit de la maison de sa tante, rempli de radios, de câbles et d'ustensiles de cuisine détournés (épisode 2)
+- **La vieille fontaine** : à sec, au centre de la place ; elle cache l'escalier qui descend sous la ville (épisode 2)
+- **Sous la place** : escalier en spirale, fresque des trois Éclairs, porte ronde scellée, puis le Cœur de Niani (mystère de la saison)
+
+### Prompts de nuit
+Pour les scènes de nuit, remplacer « warm golden sunlight » par « cinematic night lighting, moonlight and electric blue glow ».
 
 ## Règles d'écriture
 
