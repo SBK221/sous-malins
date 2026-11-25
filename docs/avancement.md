@@ -18,3 +18,9 @@
 - Awa et Malik : feuilles de face, de trois-quarts, de profil et de dos générées avec Canva (liens dans les fiches). **À valider**, puis à télécharger en pleine résolution dans `personnages/references/`.
 - Sira : non générée, le quota de crédits Canva est épuisé.
 - ElevenLabs : génération d'images refusée, le compte gratuit est désactivé et il faut un abonnement payant. Rien n'a été facturé.
+
+## 2026-11-25 — Choix : Stable Diffusion en local
+- Décision : les images seront générées **en local avec Stable Diffusion** (Forge + DreamShaper XL Lightning), gratuitement et sans quota.
+- Nouvel outil `outils/generer_images.py` : il lit les prompts dans `plans.yaml` et dans les fiches des personnages, appelle l'API de Forge, enregistre les variantes et note les seeds. Testé ici avec un faux serveur, puis vérifié avec `assembler.py`.
+- Guide d'installation pour Windows : `docs/stable-diffusion.md`.
+- **Prochaine action (sur le PC)** : installer Forge et le modèle, puis générer la feuille de référence de Sira et les 14 plans de l'épisode 02.

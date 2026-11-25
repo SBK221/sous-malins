@@ -6,8 +6,8 @@ Chaque étape écrit dans le dossier de l'épisode. Le fichier `plans.yaml` est 
 |---|---|---|---|
 | 1 | Histoire + dialogues | `script.md` | Claude |
 | 2 | Découpage en plans | `plans.yaml` (prompt, durée, mouvement, réplique) | Claude |
-| 3 | Références personnages | `personnages/references/*.png` | Flux / Stable Diffusion local, Ideogram |
-| 4 | Images des plans | `images/P01.png` … | Flux / SD avec les références (IP-Adapter, LoRA) |
+| 3 | Références personnages | `personnages/references/*.png` | Stable Diffusion local : `outils/generer_images.py --references` ([guide](stable-diffusion.md)) |
+| 4 | Images des plans | `images/P01.png` … | Stable Diffusion local : `outils/generer_images.py <épisode>`, puis IP-Adapter ou LoRA pour la cohérence |
 | 5 | Voix | `audio/voix/P01.wav` … | ElevenLabs (qualité) ; repli local : XTTS-v2, F5-TTS |
 | 6 | Animation | `animations/P01.mp4` … (facultatif) | Kling, Hailuo, Wan 2.x local ; sinon zoom/pan FFmpeg |
 | 7 | Bruitages + musique | `audio/sons/`, `audio/musique/` | Freesound, Pixabay Audio, bibliothèque audio YouTube |
