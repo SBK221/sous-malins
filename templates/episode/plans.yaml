@@ -1,0 +1,26 @@
+# Découpage plan par plan — source unique pour le montage.
+# Champs d'un plan :
+#   id          P01, P02… (même nom pour images/PXX.png, animations/PXX.mp4, audio/voix/PXX.wav)
+#   duree       secondes (allongée automatiquement si la voix est plus longue)
+#   description ce qu'on voit (affiché sur le carton animatic tant que l'image manque)
+#   prompt      prompt image complet (style commun + blocs apparence des personnages)
+#   mouvement   zoom_avant | zoom_arriere | pan_gauche | pan_droite | fixe
+#   transition  fondu | coupe   (entrée du plan)
+#   sous_titre  texte affiché (vide = rien)
+#   sons        liste de bruitages : {fichier, debut (s), volume}
+episode: "{{NUM}}"
+titre: "{{TITRE}}"
+format: {largeur: 1920, hauteur: 1080, fps: 30}
+musique:
+  fichier: audio/musique/theme.mp3
+  volume: 0.25
+sous_titres_incrustes: true
+plans:
+  - id: P01
+    duree: 6
+    description: "Plan d'ouverture"
+    prompt: ""
+    mouvement: zoom_avant
+    transition: fondu
+    sous_titre: ""
+    sons: []

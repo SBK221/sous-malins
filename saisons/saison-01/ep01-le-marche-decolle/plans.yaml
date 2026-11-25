@@ -1,0 +1,25 @@
+# Épisode 01 — 14 plans (~3 min).
+# ⚠️ Les descriptions ci-dessous sont un squelette tiré du synopsis.
+#    Remplacez « prompt » (et ajustez description / durée) par vos 14 prompts existants.
+episode: "01"
+titre: "Le marché décolle !"
+format: {largeur: 1920, hauteur: 1080, fps: 30}
+musique:
+  fichier: audio/musique/theme.mp3
+  volume: 0.25
+sous_titres_incrustes: true
+plans:
+  - {id: P01, duree: 12, description: "Le grand marché de Niani au matin, foule et couleurs", prompt: "", mouvement: zoom_avant, transition: fondu, sous_titre: "", sons: []}
+  - {id: P02, duree: 13, description: "Awa présente fièrement le Lève-Caisse", prompt: "", mouvement: zoom_avant, transition: coupe, sous_titre: "", sons: []}
+  - {id: P03, duree: 13, description: "Malik arrive à vélo, Sira sceptique", prompt: "", mouvement: pan_droite, transition: coupe, sous_titre: "", sons: []}
+  - {id: P04, duree: 13, description: "La machine s'allume : première caisse qui flotte", prompt: "", mouvement: zoom_avant, transition: coupe, sous_titre: "", sons: []}
+  - {id: P05, duree: 13, description: "Emballement : étals et marchandises s'envolent", prompt: "", mouvement: zoom_arriere, transition: coupe, sous_titre: "", sons: []}
+  - {id: P06, duree: 13, description: "Tout le marché flotte, panique comique", prompt: "", mouvement: pan_gauche, transition: coupe, sous_titre: "", sons: []}
+  - {id: P07, duree: 13, description: "Le trio se regroupe et cherche un plan", prompt: "", mouvement: fixe, transition: coupe, sous_titre: "", sons: []}
+  - {id: P08, duree: 13, description: "Sira repère la faille de la machine", prompt: "", mouvement: zoom_avant, transition: coupe, sous_titre: "", sons: []}
+  - {id: P09, duree: 13, description: "Malik fonce à vélo entre les objets flottants", prompt: "", mouvement: pan_droite, transition: coupe, sous_titre: "", sons: []}
+  - {id: P10, duree: 13, description: "Awa grimpe vers le Lève-Caisse", prompt: "", mouvement: zoom_avant, transition: coupe, sous_titre: "", sons: []}
+  - {id: P11, duree: 13, description: "Action coordonnée : la machine s'arrête", prompt: "", mouvement: zoom_avant, transition: coupe, sous_titre: "", sons: []}
+  - {id: P12, duree: 13, description: "Le marché redescend doucement", prompt: "", mouvement: zoom_arriere, transition: fondu, sous_titre: "", sons: []}
+  - {id: P13, duree: 13, description: "Soulagement et rires du trio", prompt: "", mouvement: fixe, transition: coupe, sous_titre: "", sons: []}
+  - {id: P14, duree: 14, description: "Lumière bleue et pulsations sous la place", prompt: "", mouvement: zoom_avant, transition: fondu, sous_titre: "", sons: []}
