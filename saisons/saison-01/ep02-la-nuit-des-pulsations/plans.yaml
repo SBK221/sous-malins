@@ -1,0 +1,210 @@
+# Découpage plan par plan — source unique pour le montage.
+# Champs d'un plan :
+#   id          P01, P02… (même nom pour images/PXX.png, animations/PXX.mp4, audio/voix/PXX.wav)
+#   duree       secondes (allongée automatiquement si la voix est plus longue)
+#   description ce qu'on voit (affiché sur le carton animatic tant que l'image manque)
+#   prompt      prompt image complet (style commun + blocs apparence des personnages)
+#   mouvement   zoom_avant | zoom_arriere | pan_gauche | pan_droite | fixe
+#   transition  fondu | coupe   (entrée du plan)
+#   sous_titre  texte affiché (vide = rien)
+#   sons        liste de bruitages : {fichier, debut (s), volume}
+episode: '02'
+titre: La nuit des pulsations
+format:
+  largeur: 1920
+  hauteur: 1080
+  fps: 30
+musique:
+  fichier: audio/musique/theme_nuit.mp3
+  volume: 0.25
+sous_titres_incrustes: true
+plans:
+- id: P01
+  duree: 12
+  description: 'Niani la nuit : lampadaires qui pulsent en bleu, un chat s''enfuit'
+  prompt: Wide establishing shot of a sleeping West African city at night, clay and concrete houses, rooftops, palm trees, full moon, all street lamps glowing electric blue in sync, a small cat running
+    away along a wall, empty street, mysterious atmosphere, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large
+    eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: zoom_avant
+  transition: fondu
+  sous_titre: Dites-moi que je ne suis pas le seul à entendre ça…
+  sons:
+  - fichier: audio/sons/pulsation.wav
+    debut: 1
+    volume: 0.9
+  - fichier: audio/sons/ambiance_nuit.wav
+    debut: 0
+    volume: 0.5
+- id: P02
+  duree: 14
+  description: 'Atelier d''Awa sur le toit : toutes les machines s''allument en bleu'
+  prompt: Rooftop workshop at night full of old radios, cables, fans and kitchen utensils turned into gadgets, every machine lighting up with pulsing blue light, Awa, 16-year-old West African girl inventor,
+    dark brown skin, two black hair buns, mustard yellow jacket, indigo trousers, expressive large eyes, fascinated, standing at her workbench; Sira, 17-year-old West African girl, dark skin, one long black
+    braid, purple jacket, black trousers, confident ironic expression, sitting on the window ledge with arms crossed, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric
+    blue glow, stylized proportions, expressive large eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: zoom_avant
+  transition: coupe
+  sous_titre: Mes machines battent… comme un cœur.
+  sons:
+  - fichier: audio/sons/machines_allumage.wav
+    debut: 0.5
+    volume: 0.7
+- id: P03
+  duree: 13
+  description: Malik en bas dans la ruelle, phare du vélo bleu, roue immobile
+  prompt: Narrow alley at night seen from above, Malik, 17-year-old West African boy bicycle courier, dark skin, short black hair, turquoise jersey, beige shorts, red sandals, delivery bicycle, standing
+    next to his delivery bicycle, looking up nervously, the bicycle headlight glowing blue although the wheel is not moving, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight
+    and electric blue glow, stylized proportions, expressive large eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: pan_droite
+  transition: coupe
+  sous_titre: Mon phare s'allume sans que je pédale !
+  sons: []
+- id: P04
+  duree: 14
+  description: Awa présente le Capte-Boum (radio + antenne + passoire)
+  prompt: Medium shot, Awa, 16-year-old West African girl inventor, dark brown skin, two black hair buns, mustard yellow jacket, indigo trousers, expressive large eyes, proudly holding up a homemade gadget
+    made of an old radio, a telescopic antenna and a metal kitchen colander used as a dish antenna, small lights blinking; Sira, 17-year-old West African girl, dark skin, one long black braid, purple jacket,
+    black trousers, confident ironic expression, raising one eyebrow in the background, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions,
+    expressive large eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: zoom_avant
+  transition: coupe
+  sous_titre: Je vous présente… le Capte-Boum !
+  sons:
+  - fichier: audio/sons/gadget_bip.wav
+    debut: 2
+    volume: 0.6
+- id: P05
+  duree: 13
+  description: Le trio dans les rues désertes, le Capte-Boum bipe de plus en plus vite
+  prompt: Tracking shot of three teenagers moving through empty night streets, Awa, 16-year-old West African girl inventor, dark brown skin, two black hair buns, mustard yellow jacket, indigo trousers,
+    expressive large eyes; Malik, 17-year-old West African boy bicycle courier, dark skin, short black hair, turquoise jersey, beige shorts, red sandals, delivery bicycle; Sira, 17-year-old West African
+    girl, dark skin, one long black braid, purple jacket, black trousers, confident ironic expression, Awa holding the colander gadget forward, Malik riding slowly beside them, blue lamps pulsing along
+    the street, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large eyes, detailed West African city setting, high
+    quality render, 16:9
+  mouvement: pan_gauche
+  transition: coupe
+  sous_titre: Plus ça bipe vite, plus on est proches.
+  sons:
+  - fichier: audio/sons/bips_acceleration.wav
+    debut: 0
+    volume: 0.6
+- id: P06
+  duree: 13
+  description: La place du marché bâchée, fissures bleues entre les pavés
+  prompt: Wide shot of a West African market square at night, stalls covered with tarps, thin cracks between paving stones glowing faint electric blue, Awa, 16-year-old West African girl inventor, dark
+    brown skin, two black hair buns, mustard yellow jacket, indigo trousers, expressive large eyes; Malik, 17-year-old West African boy bicycle courier, dark skin, short black hair, turquoise jersey, beige
+    shorts, red sandals, delivery bicycle; Sira, 17-year-old West African girl, dark skin, one long black braid, purple jacket, black trousers, confident ironic expression, standing at the edge of the square,
+    Awa looking guilty, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large eyes, detailed West African city setting,
+    high quality render, 16:9
+  mouvement: zoom_arriere
+  transition: coupe
+  sous_titre: C'est ici que ton marché a décollé ce matin.
+  sons: []
+- id: P07
+  duree: 12
+  description: 'Gag : une ombre énorme… c''est une chèvre'
+  prompt: Comedic shot, a big shadow behind a market stall revealed to be a goat knocking over a bucket, Malik, 17-year-old West African boy bicycle courier, dark skin, short black hair, turquoise jersey,
+    beige shorts, red sandals, delivery bicycle, screaming with wide eyes and arms up; Sira, 17-year-old West African girl, dark skin, one long black braid, purple jacket, black trousers, confident ironic
+    expression, totally unimpressed, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large eyes, detailed West African
+    city setting, high quality render, 16:9
+  mouvement: fixe
+  transition: coupe
+  sous_titre: C'est une chèvre, Malik.
+  sons:
+  - fichier: audio/sons/seau_chevre.wav
+    debut: 0.5
+    volume: 0.8
+- id: P08
+  duree: 12
+  description: La passoire tourne seule et pointe la vieille fontaine
+  prompt: Close shot of the colander gadget spinning on its own and pointing at an old dry stone fountain in the center of the square, Awa, 16-year-old West African girl inventor, dark brown skin, two black
+    hair buns, mustard yellow jacket, indigo trousers, expressive large eyes, surprised, holding the gadget, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue
+    glow, stylized proportions, expressive large eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: zoom_avant
+  transition: coupe
+  sous_titre: La vieille fontaine…
+  sons:
+  - fichier: audio/sons/bip_continu.wav
+    debut: 0
+    volume: 0.6
+- id: P09
+  duree: 12
+  description: Sira touche la pierre sans poussière, symbole d'éclair gravé
+  prompt: Close-up, Sira, 17-year-old West African girl, dark skin, one long black braid, purple jacket, black trousers, confident ironic expression, crouching and running a finger on a clean stone at the
+    base of an old dusty fountain, a small lightning bolt symbol carved next to it, subtle blue glow, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow,
+    stylized proportions, expressive large eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: zoom_avant
+  transition: coupe
+  sous_titre: Cette pierre n'a pas de poussière.
+  sons: []
+- id: P10
+  duree: 13
+  description: 'Le trio pousse la pierre ensemble : force, levier, bon angle'
+  prompt: Action shot, three teenagers pushing a heavy stone together at the base of the fountain, Awa, 16-year-old West African girl inventor, dark brown skin, two black hair buns, mustard yellow jacket,
+    indigo trousers, expressive large eyes; Malik, 17-year-old West African boy bicycle courier, dark skin, short black hair, turquoise jersey, beige shorts, red sandals, delivery bicycle; Sira, 17-year-old
+    West African girl, dark skin, one long black braid, purple jacket, black trousers, confident ironic expression, Malik pushing with effort, Awa using a metal lever, Sira pointing at a crack, 3D animated
+    cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: fixe
+  transition: coupe
+  sous_titre: Pas là. Là. Sur la fissure.
+  sons:
+  - fichier: audio/sons/pierre_clac.wav
+    debut: 10
+    volume: 0.9
+- id: P11
+  duree: 12
+  description: Escalier en spirale sous la fontaine, lueur bleue
+  prompt: High angle shot into an ancient spiral stone staircase descending into darkness beneath the fountain, strong electric blue light rising from below, Awa, 16-year-old West African girl inventor,
+    dark brown skin, two black hair buns, mustard yellow jacket, indigo trousers, expressive large eyes; Malik, 17-year-old West African boy bicycle courier, dark skin, short black hair, turquoise jersey,
+    beige shorts, red sandals, delivery bicycle; Sira, 17-year-old West African girl, dark skin, one long black braid, purple jacket, black trousers, confident ironic expression, leaning over the opening
+    in awe, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large eyes, detailed West African city setting, high quality
+    render, 16:9
+  mouvement: zoom_avant
+  transition: fondu
+  sous_titre: Un escalier. Sous la place. Évidemment.
+  sons:
+  - fichier: audio/sons/souffle_air.wav
+    debut: 0
+    volume: 0.6
+  - fichier: audio/sons/pulsation.wav
+    debut: 3
+    volume: 1.0
+- id: P12
+  duree: 15
+  description: 'Fresque ancienne : trois silhouettes sous un éclair'
+  prompt: Underground stone corridor lit by blue glow, ancient carved fresco on the wall showing three silhouettes standing under a lightning bolt above a city, Awa, 16-year-old West African girl inventor,
+    dark brown skin, two black hair buns, mustard yellow jacket, indigo trousers, expressive large eyes; Malik, 17-year-old West African boy bicycle courier, dark skin, short black hair, turquoise jersey,
+    beige shorts, red sandals, delivery bicycle; Sira, 17-year-old West African girl, dark skin, one long black braid, purple jacket, black trousers, confident ironic expression, looking at the fresco with
+    flashlight, Awa amazed, Sira suspicious, Malik smiling, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large
+    eyes, detailed West African city setting, high quality render, 16:9
+  mouvement: pan_droite
+  transition: coupe
+  sous_titre: Trois silhouettes. Un éclair.
+  sons: []
+- id: P13
+  duree: 14
+  description: 'La porte ronde scellée : éclair + engrenage, roue, œil'
+  prompt: Huge round ancient door of stone and bronze at the bottom of the stairs, central lightning bolt symbol surrounded by three notches shaped like a gear, a wheel and an eye, the lightning symbol
+    lighting up electric blue, Awa, 16-year-old West African girl inventor, dark brown skin, two black hair buns, mustard yellow jacket, indigo trousers, expressive large eyes, reaching toward it, silhouette,
+    dramatic backlight, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large eyes, detailed West African city setting,
+    high quality render, 16:9
+  mouvement: zoom_avant
+  transition: coupe
+  sous_titre: Le bruit vient de derrière.
+  sons:
+  - fichier: audio/sons/bourdonnement.wav
+    debut: 0
+    volume: 0.7
+- id: P14
+  duree: 15
+  description: 'Surface : fontaine ouverte, le drone à l''œil rouge observe'
+  prompt: Wide night shot of the market square with the opened fountain glowing blue, in the dark sky above a small black surveillance drone with a single glowing red eye and a rising sun logo hovering
+    and watching, ominous mood, then black, 3D animated cartoon style, vibrant colors, cinematic night lighting, moonlight and electric blue glow, stylized proportions, expressive large eyes, detailed West
+    African city setting, high quality render, 16:9
+  mouvement: zoom_avant
+  transition: fondu
+  sous_titre: On n'est pas seuls.
+  sons:
+  - fichier: audio/sons/drone.wav
+    debut: 3
+    volume: 0.6
